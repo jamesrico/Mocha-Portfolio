@@ -1,5 +1,5 @@
 // Karma configuration
-// Generated on Fri Feb 06 2015 12:01:05 GMT-0600 (CST)
+// Generated on Fri Feb 06 2015 12:01:03 GMT-0600 (CST)
 
 module.exports = function(config) {
   config.set({
@@ -20,6 +20,7 @@ module.exports = function(config) {
       'bower_components/jquery/dist/jquery.min.js',
       'bower_components/async/lib/async.js',
       'bower_components/lodash/lodash.min.js'
+
     ],
 
 
@@ -31,7 +32,6 @@ module.exports = function(config) {
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
-      '**/*.html': ['html2js']
     },
 
 
@@ -60,7 +60,7 @@ module.exports = function(config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['PhantomJS'],
+    browsers: ['PhantomJS', 'Firefox'],
 
 
     // Continuous Integration mode
