@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "homepage": "https://github.com/sscotth/Mocha-Portfolio",
   "authors": [
-    "Scott <scott@sscotth.io>"
+    "Scott &lt;scott@sscotth.io>"
   ],
   "description": "This is an app demonstrating testing front-end JavaScript with Mocha and Chai",
   "main": "public/index.html",
