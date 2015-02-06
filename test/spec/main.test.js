@@ -90,6 +90,7 @@ describe('DOM', function () {
 });
 
 describe('ASYNC', function () {
+  this.timeout(10 * 100);
   describe('getStock', function () {
     it('should return a stock object', function (done) {
       getStock('AAPL', function (stock) {
