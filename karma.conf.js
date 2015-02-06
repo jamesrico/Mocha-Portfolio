@@ -1,5 +1,5 @@
 // Karma configuration
-// Generated on Fri Feb 06 2015 12:01:03 GMT-0600 (CST)
+// Generated on Fri Feb 06 2015 12:01:05 GMT-0600 (CST)
 
 module.exports = function(config) {
   config.set({
@@ -20,7 +20,6 @@ module.exports = function(config) {
       'bower_components/jquery/dist/jquery.min.js',
       'bower_components/async/lib/async.js',
       'bower_components/lodash/lodash.min.js'
-
     ],
 
 
@@ -39,6 +38,8 @@ module.exports = function(config) {
       type : 'html',
       dir : 'coverage/'
     },
+
+
     // test results reporter to use
     // possible values: 'dots', 'progress'
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
