@@ -13,5 +13,7 @@ after_script:
   - cat ./coverage/PhantomJS*/lcov.info | ./node_modules/codeclimate-test-reporter/bin/codeclimate.js
 env:
   global:
-    - secure: iYGTbLk75k4KJizQIPjB5bxXSRZgVHn3Da0Tif32ikULz/lEbsK6TdCibdSEHACZNtUAYtJhRcy60NV/2i06nvJ/2RrB7BjqXqowzI/lZlZGoWUcTEgU+xTdkGH63qP775KyP1pq2z9eQz4FOQR4BC6AEjB/ekldoS0Oxvrcq1w=
-    - secure: AO/MXeDbVhwKZ+0Idu5kbzZn1dn/sSq7q8WCQ6rYei80BOu6KPXPPuYZvyec0zfWAJPgg6Bkf+p7wY1nPFjxNF1NTpZVMoG8O1Db4iWj9LPNYzAzCun4QKijXiZcgfF6p+53iKtagYJIJUR4TGD5OJs12F5E6iE+pj3TTYnovcA=
+  - secure: iYGTbLk75k4KJizQIPjB5bxXSRZgVHn3Da0Tif32ikULz/lEbsK6TdCibdSEHACZNtUAYtJhRcy60NV/2i06nvJ/2RrB7BjqXqowzI/lZlZGoWUcTEgU+xTdkGH63qP775KyP1pq2z9eQz4FOQR4BC6AEjB/ekldoS0Oxvrcq1w=
+  - secure: AO/MXeDbVhwKZ+0Idu5kbzZn1dn/sSq7q8WCQ6rYei80BOu6KPXPPuYZvyec0zfWAJPgg6Bkf+p7wY1nPFjxNF1NTpZVMoG8O1Db4iWj9LPNYzAzCun4QKijXiZcgfF6p+53iKtagYJIJUR4TGD5OJs12F5E6iE+pj3TTYnovcA=
+  - secure: rxJMIXl/aZKegqQqRFp1Kdy3G8YqGEJAAyUOiK0a8zlMBn/JbBisGtlm4ufR7NaKvIl5z8+7Fqpd8aWB3b0ho3eZRMF9H0gqz6g8EuIPHKZoDduI+lfVe1lfdhpn1IFSOoYcHg+eZzm2XvY2au3aofwiLdmAuxmy92zWznbGSBw=
+  - secure: b9p/y12gbORdcMFO3SXbXFzWIiI12Wgak2UmUuaLjZ7eNENXf1OGmAxgjMF3PsK/fgoKdDwPlHimUMEYaOSMRaJGNtQs/cn7NWGu1IXORHKDg58iZYCH551LYbGKge3FMvPm8FWoc7+iVvJ8X/CfRMgvHAMmDBgDrIlAwwWsomI=
