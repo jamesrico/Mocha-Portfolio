@@ -9,4 +9,4 @@ This is an app demonstrating testing front-end JavaScript with Mocha and Chai
 
 [![json Dependency Status](https://www.versioneye.com/user/projects/54d8df57c1bbbda013000002/badge.svg?style=flat)](https://www.versioneye.com/user/projects/54d8df57c1bbbda013000002)
 
-
+[![Code Climate](https://codeclimate.com/github/jamesrico/Mocha-Portfolio/badges/gpa.svg)](https://codeclimate.com/github/jamesrico/Mocha-Portfolio)
